@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import {Timer} from './components/timer';
 
 
 
@@ -8,7 +9,5 @@ import './index.css';
 // ===============================================================
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <h1>
-    Hello  world!
-  </h1>
+  <Timer mins={1} secs={0}/>
 );
